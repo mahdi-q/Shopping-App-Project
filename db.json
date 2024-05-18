@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Cozy Bed",
+      "class": "bed",
+      "price": 249.99,
+      "image": "./assets/images/cozy-bed.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Wooden Shelf",
+      "class": "shelf",
+      "price": 59.99,
+      "image": "./assets/images/wooden-shelf.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Comfortable Chair",
+      "class": "chair",
+      "price": 79.99,
+      "image": "./assets/images/comfortable-chair.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Sturdy Table",
+      "class": "table",
+      "price": 129.99,
+      "image": "./assets/images/sturdy-table.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Spacious Closet",
+      "class": "closet",
+      "price": 199.99,
+      "image": "./assets/images/spacious-closet.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Luxury Bed",
+      "class": "bed",
+      "price": 349.99,
+      "image": "./assets/images/luxury-bed.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Floating Shelf",
+      "class": "shelf",
+      "price": 44.99,
+      "image": "./assets/images/floating-shelf.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Elegant Chair",
+      "class": "chair",
+      "price": 89.99,
+      "image": "./assets/images/elegant-chair.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Modern Table",
+      "class": "table",
+      "price": 179.99,
+      "image": "./assets/images/modern-table.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Walk-in Closet",
+      "class": "closet",
+      "price": 299.99,
+      "image": "./assets/images/walk-in-closet.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Velvet Bed",
+      "class": "bed",
+      "price": 399.99,
+      "image": "./assets/images/velvet-bed.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Floating Bookshelf",
+      "class": "shelf",
+      "price": 69.99,
+      "image": "./assets/images/floating-bookshelf.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Leather Accent Chair",
+      "class": "chair",
+      "price": 129.99,
+      "image": "./assets/images/leather-accent-chair.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Glass-Top Dining Table",
+      "class": "table",
+      "price": 249.99,
+      "image": "./assets/images/glass-top-dining-table.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Walk-in Wardrobe",
+      "class": "closet",
+      "price": 499.99,
+      "image": "./assets/images/walk-in-wardrobe-closet.jpg"
+    }
+  ]
+}
