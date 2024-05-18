@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping App Project</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+      integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navigation-section">
+      <div class="navigation container">
+        <span class="nav__icon open-search"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></span>
+        <h2 class="nav__heading">Shopping App</h2>
+        <div class="nav__cart">
+          <span class="nav__icon"><i class="fa-solid fa-cart-plus"></i></span>
+          <span class="nav__counter">0</span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="header-section" style="display: none;">
+      <h1 class="heading">Products Filter</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search Product" />
+      </div>
+      <div class="links">
+        <a href="#" class="link" data-filter="all">All</a>
+        <a href="#" class="link" data-filter="bed">Bed</a>
+        <a href="#" class="link" data-filter="shelf">Shelf</a>
+        <a href="#" class="link" data-filter="chair">Chair</a>
+        <a href="#" class="link" data-filter="table">Table</a>
+        <a href="#" class="link" data-filter="closet">Closet</a>
+      </div>
+    </section>
+
+    <div class="products-section container">
+      <h1 class="products__heading">Our Products</h1>
+
+      <div class="products__wrapper">
+        <!-- <div class="product">
+          <div class="product__image">
+            <img src="./assets/images/product-1.jpeg" alt="" />
+          </div>
+          <div class="product__info">
+            <span class="product__title">Special bed</span>
+            <span class="product__price">10.99 $</span>
+          </div>
+          <div class="product__btn">
+            <button class="btn btn--primary">add to cart</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="backdrop"></div>
+
+    <div class="cart-section">
+      <div class="cart__header">
+        <h3>Your Cart</h3>
+      </div>
+
+      <div class="cart__body">
+        <!-- <div class="cart__item">
+          <div class="cart__info">
+            <img src="./assets/images/product-1.jpeg" alt="" />
+            <div class="image-info">
+              <span class="title">Special bed</span>
+              <span class="price">10.99 $</span>
+            </div>
+          </div>
+          <div class="cart__icons">
+            <div class="cart__counter">
+              <i class="fa-solid fa-chevron-up"></i>
+              <span>1</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="cart__remove">
+              <span><i class="fa-solid fa-trash"></i></span>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="cart__footer">
+        <div class="cart__price">
+          <span>Total Price : 90.55 $</span>
+        </div>
+        <div class="cart__btn">
+          <button class="btn btn--secondary clear-cart">Clear Cart</button>
+          <button class="btn btn--primary confirm-cart">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script type="module" src="./JS/app.js"></script>
+  </body>
+</html>
