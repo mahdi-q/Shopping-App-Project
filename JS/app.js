@@ -32,7 +32,9 @@ class Products {
     this.allProductsData = [];
 
     axios
-      .get("http://localhost:3000/products")
+      .get(
+        "https://my-json-server.typicode.com/mahdi-q/Shopping-App-Project/products"
+      )
       .then((res) => {
         this.allProductsData.push(...res.data);
       })
